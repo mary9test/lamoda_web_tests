@@ -45,8 +45,8 @@ def init_browser(request):
     browser.config.driver = driver
 
     browser.config.base_url = 'https://www.lamoda.ru'
-    browser.config.window_width = 2880
-    browser.config.window_height = 1800
+    browser.config.window_width = 1920
+    browser.config.window_height = 1080
 
     yield browser
     attach.add_screenshot(browser)
