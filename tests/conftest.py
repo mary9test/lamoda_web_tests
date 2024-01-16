@@ -20,6 +20,10 @@ def load_env():
 @pytest.fixture(scope='function', autouse=True)
 def init_browser(request):
     options = Options()
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--incognito")
     selenoid_capabilities = {
         "browserName": "chrome",
         "browserVersion": "100.0",
