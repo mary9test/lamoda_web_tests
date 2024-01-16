@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 from selene import browser
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+from utils import attach
 
 
 def pytest_addoption(parser):
@@ -48,5 +49,9 @@ def init_browser(request):
     browser.config.window_height = 1800
 
     yield browser
+    attach.add_screenshot(browser)
+    attach.add_logs(browser)
+    attach.add_html(browser)
+    attach.add_video(browser)
 
     browser.quit()

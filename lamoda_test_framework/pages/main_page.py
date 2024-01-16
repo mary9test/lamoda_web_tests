@@ -3,7 +3,8 @@ import allure
 
 
 def open_browser():
-    browser.open("/women-home/")
+    with allure.step("Открываем браузер"):
+        browser.open("/women-home/")
 
 
 def get_menu_item(gender):
@@ -19,6 +20,11 @@ def go_to_kids_page():
 def go_to_resale_page():
     with allure.step("Переходим в раздел Resale"):
         browser.element('[aria-label="Главное меню"] > :nth-child(9)').click()
+
+
+def go_to_sale_page():
+    with allure.step("Переходим в раздел Sale"):
+        browser.element('[aria-label="Главное меню"] > :nth-child(12)').click()
 
 
 def verify_menu_item_text(gender, expected_text):

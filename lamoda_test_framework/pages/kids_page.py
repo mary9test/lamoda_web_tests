@@ -3,7 +3,8 @@ import allure
 
 
 def open_browser():
-    browser.open("/women-home/")
+    with allure.step("Открываем браузер"):
+        browser.open("/women-home/")
 
 
 def select_school_section():
