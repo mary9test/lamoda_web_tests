@@ -1,5 +1,5 @@
 # Автоматизация тестирования сайта Lamoda
-![img.png](pictures/main.png)
+![img.png](lamoda_test_framework/pictures/main.png)
 
 ## Особенности проекта
 * Оповещения о тестовых прогонах в Telegram
@@ -28,28 +28,28 @@
 3. Выбрать параметры запуска
 4. Нажать Build
 ## Allure Report
-![img.png](pictures/allure-1.png)
-![img.png](pictures/allure-2.png)
-![img.png](pictures/allure-3.png)
+![img.png](lamoda_test_framework/pictures/allure-1.png)
+![img.png](lamoda_test_framework/pictures/allure-2.png)
+![img.png](lamoda_test_framework/pictures/allure-3.png)
 
 ## Интеграция с Allure TestOps
 ### Дашборд с информацией о тестовом проекте
-![img.png](pictures/testops-1.png)
+![img.png](lamoda_test_framework/pictures/testops-1.png)
 
 ### Пример тестового прогона
-![img.png](pictures/testops-2.png)
+![img.png](lamoda_test_framework/pictures/testops-2.png)
 
 ## Отчет о пройденных тестах в Telegram
 В проекте настроена отправка отчета о прохождении тестов в Telegram
-![img.png](pictures/telegram.png)
+![img.png](lamoda_test_framework/pictures/telegram.png)
 
 ## Интеграция с Jira
 <a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1063">Ссылка на проект в Jira</a>
 
-![img.png](pictures/jira.png)
+![img.png](lamoda_test_framework/pictures/jira.png)
 
 ## Видео прохождения теста
 
-![gif](pictures/0e5ac17998f650d09737f61a129e9097.gif)
+![gif](lamoda_test_framework/pictures/0e5ac17998f650d09737f61a129e9097.gif)
 
 
