@@ -1,4 +1,4 @@
-from lamoda_test_framework.pages import main_page
+from lamoda_test_framework.pages.main_page import main
 import allure
 
 
@@ -7,7 +7,6 @@ import allure
 @allure.feature("search_page")
 @allure.severity('critical')
 def test_search():
-    input_request_value = "брюки"
-    main_page.open_browser()
-    main_page.search_for_item(input_request=input_request_value)
-    main_page.verify_search(input_request=input_request_value)
+    main.open_browser()
+    main.search_for_item("брюки")
+    main.verify_search("брюки")

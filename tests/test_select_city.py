@@ -1,4 +1,4 @@
-from lamoda_test_framework.pages import geo_page
+from lamoda_test_framework.pages.geo_page import geolocation
 import allure
 
 
@@ -7,7 +7,7 @@ import allure
 @allure.feature("geo_page")
 @allure.severity('critical')
 def test_select_city():
-    geo_page.open_browser()
-    geo_page.geo_click()
-    geo_page.select_city()
-    geo_page.select_city_verify_result()
+    geolocation.open_browser()
+    geolocation.geo_click()
+    geolocation.select_city()
+    geolocation.select_city_verify_result()

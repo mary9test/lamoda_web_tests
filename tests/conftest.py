@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from selene import browser
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from utils import attach
+from lamoda_test_framework.utils import attach
 
 
 def pytest_addoption(parser):

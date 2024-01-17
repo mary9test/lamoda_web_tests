@@ -1,5 +1,5 @@
 # Автоматизация тестирования сайта Lamoda
-![img.png](utils/pictures/main.png)
+![img.png](pictures/main.png)
 
 ## Особенности проекта
 * Оповещения о тестовых прогонах в Telegram
@@ -27,22 +27,22 @@
 3. Выбрать параметры запуска
 4. Нажать Build
 ## Allure Report
-![img.png](utils/pictures/allure-1.png)
-![img.png](utils/pictures/allure-2.png)
-![img.png](utils/pictures/allure-3.png)
+![img.png](pictures/allure-1.png)
+![img.png](pictures/allure-2.png)
+![img.png](pictures/allure-3.png)
 
 ## Интеграция с Allure TestOps
 ### Дашборд с информацией о тестовом проекте
-![img.png](utils/pictures/testops-1.png)
+![img.png](pictures/testops-1.png)
 
 ### Пример тестового прогона
-![img.png](utils/pictures/testops-2.png)
+![img.png](pictures/testops-2.png)
 
 ## Отчет о пройденных тестах в Telegram
 В проекте настроена отправка отчета о прохождении тестов в Telegram
-![img.png](utils/pictures/telegram.png)
+![img.png](pictures/telegram.png)
 
 ## Видео прохождения теста
-![gif](utils/pictures/0e5ac17998f650d09737f61a129e9097.gif)
+![gif](pictures/0e5ac17998f650d09737f61a129e9097.gif)
 
 

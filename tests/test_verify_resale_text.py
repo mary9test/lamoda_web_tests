@@ -1,5 +1,5 @@
-from lamoda_test_framework.pages import resale_page
-from lamoda_test_framework.pages import main_page
+from lamoda_test_framework.pages.resale_page import resale
+from lamoda_test_framework.pages.main_page import main
 import allure
 
 
@@ -8,7 +8,7 @@ import allure
 @allure.feature("resale_page")
 @allure.severity('critical')
 def test_verify_resale_text():
-    main_page.open_browser()
-    main_page.go_to_resale_page()
-    resale_page.click_about_button()
-    resale_page.verify_text_about_resale()
+    main.open_browser()
+    main.go_to_resale_page()
+    resale.click_about_button()
+    resale.verify_text_about_resale()
