@@ -18,13 +18,6 @@
 * Соответствие названий разделов
 * Выдача товаров по фильтру Только со скидкой в разделе Sale
 
-## Запуск тестов локально
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-pytest -s -v
-```
 ## Запуск тестов из Jenkins
 ### Ссылка на проект в Jenkins
 > <a target="_blank" href="https://jenkins.autotests.cloud/job/008-masch_a_ui_tests/">Jenkins</a>
@@ -39,11 +32,17 @@ pytest -s -v
 ![img.png](utils/pictures/allure-3.png)
 
 ## Интеграция с Allure TestOps
+### Дашборд с информацией о тестовом проекте
 ![img.png](utils/pictures/testops-1.png)
 
 ### Пример тестового прогона
 ![img.png](utils/pictures/testops-2.png)
 
-### Видео прохождения теста
+## Отчет о пройденных тестах в Telegram
+В проекте настроена отправка отчета о прохождении тестов в Telegram
+![img.png](utils/pictures/telegram.png)
+
+## Видео прохождения теста
 ![gif](utils/pictures/0e5ac17998f650d09737f61a129e9097.gif)
+
 
