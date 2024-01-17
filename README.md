@@ -8,6 +8,7 @@
 * Отчеты Allure Report
 * Интеграция с Allure TestOps
 * Запуск автотестов в Selenoid
+* Интеграция с Jira
 
 ## Список, реализованных проверок
 * Стоимость доступных для покупки подарочных карт 
@@ -42,7 +43,13 @@
 В проекте настроена отправка отчета о прохождении тестов в Telegram
 ![img.png](pictures/telegram.png)
 
+## Интеграция с Jira
+<a target="_blank" href="https://jira.autotests.cloud/browse/HOMEWORK-1063">Ссылка на проект в Jira</a>
+
+![img.png](pictures/jira.png)
+
 ## Видео прохождения теста
+
 ![gif](pictures/0e5ac17998f650d09737f61a129e9097.gif)
 
 
